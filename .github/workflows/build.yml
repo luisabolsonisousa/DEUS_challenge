@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pyspark chispa
+          pip install pytest chispa pyspark
 
       - name: Run tests
         run: |
