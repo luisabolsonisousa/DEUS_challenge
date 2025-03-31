@@ -1,0 +1,9 @@
+general:
+  app_name: "DEUS-challenge"
+
+files:
+  csv_type: "CSV"
+  parquet_type: "PARQUET"
+  json_type: "JSON"
+  input_data_folder: "src/data/"
+  export_data_folder: "export/"
