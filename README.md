@@ -42,16 +42,17 @@ The following outputs are generated:
 ## How to Run
 
 ```bash
-# Create and activate virtual environment
+# I Created  virtual environment to run the project
+
 python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install pyspark==3.5.1 chispa==0.9.2 pytest==8.2.1 pyyaml==6.0.1
 
 # Execute the pipeline
 python main.py
-```
+
 
 ## Testing
 
@@ -85,7 +86,4 @@ A GitHub Actions workflow (`.github/workflows/build.yml`) automatically runs the
 └── config.yaml
 ```
 
-## Author
-
-Developed by Mariana as part of a technical code challenge.
 
